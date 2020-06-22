@@ -11,10 +11,15 @@ The entire website is divided into four main section which are:
 * TECHNOLOGY: This deals with discussions on Technology matters
  
 DEVELOPMENT
+
 page-layout.css: I used a single css for the layout of the entire webpage so as to derive thesame headings and footer style
+
 Education, Entertainment, Technology:I re-write a specific style for this sections so as to obtain a unique style
+
 Bootstrap: I equip the entire webpage with bootstrap so as to modify some changes such as font properties
+
 Sass was entirely used to developed the technology page while bootstrap was used for the homepage
+
 All other required properties as required from the assignment was used in entertainment section. such properties include:
 media query, table, list and so on
 

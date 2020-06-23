@@ -5,11 +5,12 @@ body{
     display: flex;
     background-color: white;
     padding: 20px;
+    /* width: 800px; */
 }
 .sidebar{
     padding: 10px;
     width: 30%;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 .sidebar a{
     display: block;

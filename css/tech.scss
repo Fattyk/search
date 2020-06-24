@@ -18,6 +18,9 @@ img{
         img{
             width: 100%;
         }
+        h3{
+            color: $color;
+        }
     }
 }
 @media(max-width:600px){

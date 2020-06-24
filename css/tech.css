@@ -17,6 +17,9 @@ img {
 .main div img {
   width: 100%;
 }
+.main div h3 {
+  color: blue;
+}
 
 @media (max-width: 600px) {
   .main div {

@@ -1,4 +1,4 @@
-# Project 0
+# Project 0 : Search
 
 Web Programming with Python and JavaScript
 

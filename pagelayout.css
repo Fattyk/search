@@ -1,0 +1,28 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+article header {
+  justify-content: flex-end;
+}
+article header, article footer {
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+}
+article header nav a, article footer nav a {
+  color: rgba(0, 0, 0, 0.87);
+  margin: 0px 10px;
+  font-size: small;
+}
+article header nav a:hover, article footer nav a:hover {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+/*# sourceMappingURL=pagelayout.css.map */

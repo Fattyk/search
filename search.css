@@ -1,0 +1,86 @@
+section .main, section form, section {
+  display: flex;
+  align-items: center;
+}
+
+section {
+  margin: 0px auto;
+  height: 1000px;
+  width: 450px;
+}
+section .main, section form {
+  flex-direction: column;
+  width: 100%;
+}
+section .main {
+  height: 300px;
+  justify-content: space-evenly;
+}
+section .main form div {
+  margin-bottom: 15px;
+}
+section .main form div .input {
+  height: 45px;
+}
+section .main form div .pend-property {
+  height: 45px;
+}
+section .main form div .pend-property .append, section .main form div .pend-property .prepend {
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid #ced4da;
+}
+section .main form div .pend-property .append {
+  background-image: url("search.svg");
+  border-right: 0px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+section .main form div .pend-property .prepend1, section .main form div .pend-property .prepend2, section .main form div .pend-property .prepend2b {
+  background-image: url("google-camera.PNG");
+  border-left: 0px;
+  border-right: 0px;
+}
+section .main form div .pend-property .prepend2 {
+  background-image: url("mic.svg");
+}
+section .main form div .pend-property .prepend2b {
+  background-image: url("mic.svg");
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100%;
+  border-left: 0px;
+}
+section .main form div .pend-property .prepend3 {
+  background-image: url("search.svg");
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100%;
+  border-left: 0px;
+}
+
+section .main form div .pend-property .append, section .main form div .pend-property .prepend1, section .main form div .pend-property .prepend2, section .main form div .pend-property .prepend2b, section .main form div .pend-property .prepend3 {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border-color: #d9d9d9;
+}
+
+.sub {
+  display: flex;
+}
+.sub .submit-button {
+  margin: 5px;
+  font-size: 14px;
+  border-left: 0px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5F6368;
+}
+.sub .submit-button:hover {
+  background-color: #f2f2f2;
+  border: 1px solid gray;
+  color: #5F6368;
+}
+
+/*# sourceMappingURL=search.css.map */

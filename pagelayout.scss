@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    header{
+        justify-content: flex-end;
+    }
+    header,footer{
+        display: flex;
+        padding: 10px;
+        flex-grow: 1;
+        nav{
+            a{
+                color: rgba(0,0,0,0.87);
+                margin: 0px 10px;
+                font-size: small;
+            }
+            a:hover{
+                color:rgba(0,0,0,0.87);
+            }
+        }
+    }
+}

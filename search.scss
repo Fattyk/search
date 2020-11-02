@@ -1,0 +1,90 @@
+%flex-align-center{
+    display: flex;
+    align-items: center;
+}
+section{
+    @extend %flex-align-center;
+    margin: 0px auto;
+    height: 1000px; 
+    width: 450px; 
+    .main, form{
+        @extend %flex-align-center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .main{
+        height: 300px;
+        justify-content: space-evenly;
+        form{
+            div{
+                margin-bottom: 15px;
+                .input{
+                    height: 45px;
+                }
+                .pend-property{
+                    // height: 97%;
+                    height: 45px;//calc(1.5em + .75rem + 2px);
+                    .append,.prepend{    
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        border: 1px solid #ced4da;
+                    }
+                    .append{
+                        @extend %icon-properties;
+                        background-image: url("search.svg");
+                        border-right: 0px;
+                        border-top-left-radius: 50%;
+                        border-bottom-left-radius: 50%;
+                    }
+                    .prepend1,.prepend2,.prepend2b{
+                        @extend %icon-properties;
+                        background-image: url("google-camera.PNG");
+                        border-left: 0px;
+                        border-right: 0px;
+                    }
+                    .prepend2{
+                        background-image: url("mic.svg");
+                    }
+                    .prepend2b{
+                        @extend %icon-properties;
+                        background-image: url("mic.svg");
+                        border-top-right-radius: 100%;
+                        border-bottom-right-radius: 100%;
+                        border-left: 0px;
+                    }
+                    .prepend3{
+                        @extend %icon-properties;
+                        background-image: url("search.svg");
+                        border-top-right-radius: 100%;
+                        border-bottom-right-radius: 100%;
+                        border-left: 0px;
+                    }  
+                } 
+            }
+        }
+    }
+}
+%icon-properties{
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-color: #d9d9d9;
+}
+.sub{
+    display: flex;
+    .submit-button{
+        margin: 5px;
+        font-size: 14px;
+        border-left: 0px;
+        background-color: #f2f2f2;
+        border: 1px solid #f2f2f2;
+        border-radius: 4px;
+        color: #5F6368;
+    }
+    .submit-button:hover{
+        background-color: #f2f2f2;
+        border: 1px solid gray;
+        color: #5F6368;
+    }
+}
